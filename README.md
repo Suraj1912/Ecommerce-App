@@ -1,6 +1,11 @@
 # Ecommerce-App
 Ecommerce application built in java using concepts of layouts, toast, implicit and explicit intents, etc.
 
+### SDK : Android SDK
+### IDE : Android Studio
+### Language : Java
+
+
 <p float="left">
   <img src="screenshots/Screenshot (202).png" height=500>
   <img src="screenshots/Screenshot (203).png" height=500> 
