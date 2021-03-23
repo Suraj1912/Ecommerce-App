@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage"
+    android:background="@drawable/border"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/welcm_name"
+        >
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/cart"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:id="@+id/count"
+        android:layout_below="@id/shop"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/contact"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:id="@+id/contact"
+        android:layout_below="@id/count"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/shop"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:id="@+id/shop"
+        android:layout_below="@id/welcm_name"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:id="@+id/back"
+        android:layout_below="@id/contact"
+        >
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back"
+        android:textSize="23dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="40dp"
+        android:id="@+id/total_items"
+        >
+
+    </TextView>
+
+
+
+</RelativeLayout>

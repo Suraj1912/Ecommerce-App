@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application de commerce électronique</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="name">Entrez votre nom</string>
+    <string name="email">Entrez votre adresse e-mail</string>
+    <string name="phone">Entrez votre numéro de téléphone</string>
+    <string name="password">Entrer le mot de passe</string>
+    <string name="conf_password">Retaper le mot de passe</string>
+
+    <string name="welcome">BIENVENU</string>
+    <string name="shop">Boutique</string>
+    <string name="cart">Compter</string>
+    <string name="contact">Nous contacter</string>
+    <string name="back">Retour</string>
+
+    <string name="product">Des produits</string>
+    <string name="items">Nombre total d\'articles dans le panier :</string>
+    <string name="added">ajouté au panier</string>
+    <string name="not_added">déjà dans le panier</string>
+
+    <string name="all_fields">Tous les champs sont obligatoires</string>
+    <string name="phone_num">Le numéro de téléphone doit comporter 10 chiffres</string>
+    <string name="pass_match">Le mot de passe ne correspond pas</string>
+</resources>
